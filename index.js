@@ -13,6 +13,3 @@ export default function getToc({ callback = console.log, depthLimit = 2 }) {
     callback(headers.filter(({ depth }) => depth <= depthLimit));
   };
 }
-
-//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
-//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
