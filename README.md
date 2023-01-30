@@ -5,7 +5,7 @@ I'm writing a blog project with mdx-bundler and came across the problem of needi
 ### Usage
 
 ```js
-import exportToc from 'remark-toc-export'
+import exportToc from '@jasonlamv-t/remark-toc-export'
 
 const md = remark()
   .use(exportToc, {
