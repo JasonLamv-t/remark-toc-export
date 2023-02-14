@@ -1,14 +1,14 @@
-# Remark-Toc-Export
+# Remark-Toc-Extract
 
 I'm writing a blog project with mdx-bundler and came across the problem of needing to get the TOC of the markdown. This plugin does just that!
 
 ### Usage
 
 ```js
-import exportToc from '@jasonlamv-t/remark-toc-export'
+import extractToc from '@jasonlamv-t/remark-toc-extract';
 
 const md = remark()
-  .use(exportToc, {
+  .use(extractToc, {
     callback: (headers) => {
       console.log(headers);
     },
@@ -35,8 +35,8 @@ Outer TOC will spit out an array of objects like this:
 [
   { value: 'Title', depth: 1, id: 'title' },
   { value: 'Subtitle', depth: 2, id: 'subtitle' },
-  { value: 'Step 1: Copy', depth: 3, id: 'step-1-copy' }
-]
+  { value: 'Step 1: Copy', depth: 3, id: 'step-1-copy' },
+];
 ```
 
 ### Options

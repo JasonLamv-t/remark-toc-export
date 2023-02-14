@@ -1,6 +1,6 @@
 {
-  "name": "@jasonlamv-t/remark-toc-export",
-  "version": "1.0.4",
+  "name": "@jasonlamv-t/remark-toc-extract",
+  "version": "0.0.1",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -17,12 +17,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/JasonLamv-t/remark-toc-export.git"
+    "url": "git+ssh://git@github.com/JasonLamv-t/remark-toc-extract.git"
   },
   "bugs": {
-    "url": "https://github.com/JasonLamv-t/remark-toc-export/issues"
+    "url": "https://github.com/JasonLamv-t/remark-toc-extract/issues"
   },
-  "homepage": "https://github.com/JasonLamv-t/remark-toc-export#readme",
+  "homepage": "https://github.com/JasonLamv-t/remark-toc-extract#readme",
   "description": "Remark plugin to generate a toc based on h tags and spit the output back using callbacks",
   "dependencies": {
     "github-slugger": "^2.0.0",

@@ -2,7 +2,7 @@ import { toString } from 'mdast-util-to-string';
 import { visit } from 'unist-util-visit';
 import { slug } from 'github-slugger';
 
-export default function getToc({ callback = console.log, depthLimit = 2 }) {
+export default function extractToc({ callback = console.log, depthLimit = 2 }) {
   return (tree) => {
     const headers = [];
     visit(tree, 'heading', (node) => {

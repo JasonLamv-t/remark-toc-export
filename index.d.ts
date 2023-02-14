@@ -6,7 +6,7 @@ export type Heading = {
 
 export type Toc = Heading[];
 
-export default function getToc({
+export default function extractToc({
   callback: Function = (toc: Toc) => console.log(toc),
   depthLimit: number = 2,
 }): (tree: any) => void;
